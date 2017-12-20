@@ -1,0 +1,27 @@
+{
+  "name": "messenger_bot_tutorial",
+  "version": "1.0.0",
+  "description": "Guide on creating a messenger bot ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kamalnrf/Messenger-bot-tutorial.git"
+  },
+  "keywords": [
+    "messenger-bot"
+  ],
+  "author": "kamalnrf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kamalnrf/Messenger-bot-tutorial/issues"
+  },
+  "homepage": "https://github.com/Kamalnrf/Messenger-bot-tutorial#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
