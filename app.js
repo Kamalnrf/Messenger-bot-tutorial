@@ -40,9 +40,13 @@ function handleFacebookData (data){
           return;
         }
         if (event.message && event.message.text) {
-		    let text = event.message.text
+		    const text = event.message.text
 		    // Handle your message with any of the functions in lib/message.js
 	    }
+		if (event.message && event.message.quick_reply){
+			const payload = event.messsage.quick_reply
+			// Handle your message with any of the functions in lib/message.js
+		}
       });
     });
 }
